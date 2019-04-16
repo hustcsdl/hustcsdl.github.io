@@ -112,37 +112,31 @@
 </nav>                                          <!--59~109行定义了页面最上方导航栏的五个链接buttom -->
   
  <!---------------------------------------------------------------------------------------------------------> 
- <!--------------------------------------------------布局homepage区域------------------------------------------------------->  
- <span id="homepage" style="display: none"></span>
-
-  <section id="about" class="home-section">
+ <!--------------------------------------------------home section----------------------------------------------------->  
+<span id="homepage" style="display: none"></span>
+ 
+<section id="about" class="home-section">              <!--定义home section-->            
 
 <div class="container">
 
   <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
 
-   <div class="col-xs-12 col-md-4">
+   <div class="col-xs-12 col-md-4">             <!--设定home section的大小？-->
 
     <div id="profile">
+      <div class="portrait" style="background-image: url('/img/avatar.jpeg');">
+      </div>
       
-      <div class="portrait" style="background-image: url('/img/avatar.jpeg');"></div>
-
       <meta itemprop="image" content="/img/avatar.jpeg">
 
       <div class="portrait-title">
-
-        <h2 itemprop="name">Yuanyuan Sun</h2>
-
-        <h3 itemprop="jobTitle">CS PhD@HUST</h3>      
-
+        <h2 itemprop="name"> Daoliang He </h2>              <!--设定名字为第2号标题-->
+        <h3 itemprop="jobTitle"> CS PhD@HUST </h3>             <!--设定job为第3号标题-->
+        
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-
           <a href="http://www.hust.edu.cn/" target="_blank" itemprop="url" rel="noopener">
-
-          <span itemprop="name">Huazhong University of Science and Technology</span>
-
+               <span itemprop="name">Huazhong University of Science and Technology</span>
           </a>
-
         </h3>       
 
       </div>
@@ -151,24 +145,16 @@
 
       <ul class="network-icon" aria-hidden="true">    
 
-        <li>
-
-          <a itemprop="sameAs" href="mailto:csunyy@hust.edu.cn" target="_blank" rel="noopener">
-
+        <li>                                                            <!--邮箱图标超链接-->
+          <a itemprop="sameAs" href="mailto:hedl@hust.edu.cn" target="_blank" rel="noopener">     
             <i class="fa fa-envelope big-icon"></i>
-
           </a>
-
         </li>  
 
-        <li>
-
-          <a itemprop="sameAs" href="//github.com/csunyy" target="_blank" rel="noopener">
-
+        <li>                                                           <!--github图标超链接-->
+          <a itemprop="sameAs" href="//github.com/hustcsdl" target="_blank" rel="noopener">
             <i class="fa fa-github big-icon"></i>
-
           </a>
-
         </li>
        
       </ul>
@@ -178,9 +164,56 @@
   </div>
 
   <div class="col-xs-12 col-md-8" itemprop="description">
-  
+  <h1 id="biography">Biography</h1>
+<p>Yuanyuan Sun is a PhD student majoring in computer science and technology in Huazhong University of Science and Technology advised by <a href="https://csyhua.github.io/csyhua/index.html" target="_blank">Prof. Yu Hua</a>.</p>
+<p>She has published several papers in major conferences and journals including USENIX ATC, ACM SoCC, MSST, ICDCS, IPDPS, IWQoS, TPDS.</p>
+
+    <div class="row">   
+
+      <div class="col-sm-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          <li>Cloud Storage Systems</li>
+          <li>Semantic Hashing</li>
+          <li>Metadata Management</li>
+        </ul>
+      </div>   
+
+      <div class="col-sm-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul"> 
+         
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ph.D student in Computer Science and Technology, 2014~Now</p>
+              <p class="institution">Huazhong University of Science and Technology</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">B.E in Computer Science and Technology, 2014</p>
+              <p class="institution">Huazhong University of Science and Technology</p>
+            </div>
+          </li>     
+
+        </ul>
+
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </section>
   <!--------------------------------------------------------------------------------------------------------->
-  
+  <!--------------------------------------------------------------------------------------------------------->
 <h1 style="font-family:Times New Roman;text-align:center;"> home </h1>   <!--<h1> 元素定义一个大标题，<h1>~<h6>为依次减小的6个标题-->
                                            <!--这里自己用style添加了新罗马字体，以及标题居中-->
 <p>brief biography</p>                        <!--<p> 元素定义一个段落-->
