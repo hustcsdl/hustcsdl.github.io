@@ -58,13 +58,13 @@
   
   <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">    
   
-    <div class="container"> 
+    <div class="container">               <!--<div> 元素是块级元素，它可用于组合其他 HTML 元素的容器;可用于文档布局-->
       
       <div class="navbar-header"> 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
 
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle navigation</span>                <!--<span> 元素是内联元素，可用作文本的容器-->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -74,7 +74,10 @@
 
     <div class="collapse navbar-collapse">
 
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">        <!--<ul>
+                                                          <li>Coffee</li>
+                                                          <li>Milk</li>
+                                                      </ul> -->       <!--无序列表：这里制作了一个含两项的无序列表-->
 
         <li class="nav-item">                           <!--Home按钮链接到此网页下#about栏目-->
           <a href="/#about" data-target="#about">
@@ -117,16 +120,18 @@
 <a href="https://csunyy.github.io/" target="_blank" style="text-decoration:none;"> csunyy </a>              <!--<a> 元素定义一个链接-->
                                                          <!--使用 target 属性，可以定义被链接的文档在何处显示,这里会在新窗口打开文档-->
                                                            <!--使用style样式属性定义一个没有下划线的链接-->
-<img border="300" src="/img/avatar.jpeg" width="150" height="230" />       <!--<img> 标签定义一个图像-->
-  
+<img border="300" src="/img/avatar.jpeg" alt="my_portrait" width="150" height="230" />       <!--<img> 标签定义一个图像-->
+                                                         <!--<img src="url" alt="some_text">图片的url和替换文本--> 
 <p>this is<br>  a test for<br>  row dividing </p>                                <!--<br>用于换行-->
 <p style="font-family:arial;color:black;font-size:20px;">           <!--style样式标签定义段落的字体，颜色，字号-->
   春眠不觉晓，
-      处处闻啼鸟。
+      <span style="color:blue;font-weight:bold">
+        处处闻啼鸟。
+      </span>                                           <!--使用 <span> 元素对文本中的一部分进行着色和加粗-->
         夜来风雨声，
           花落知多少啊。</p>
   
- <hr>                               <!--<hr>用于创建水平线，可用于分割内容-->
+ <hr>                                 <!--<hr>用于创建水平线，可用于分割内容-->
  
 </body>
 
