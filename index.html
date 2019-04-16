@@ -46,17 +46,16 @@
     
   <title>hustcsdl</title>
 
-</head>
- 
+</head> 
+
   
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >   <!--<body> 元素包含了可见的页面内容,<body> 元素定义了 HTML 文档的主体-->
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >  
+                                                        <!--<body> 元素包含了可见的页面内容,<body> 元素定义了 HTML 文档的主体-->
                                                         <!--这里的body定义了哪些属性？-->
- 
+<!--方导航栏：设定网页的布局layout-->
+ <!-------------------------------------------------navigation-------------------------------------------------------->  
   
-  <!--从这里到<h1>home</home>设定了网页的布局layout ??-->
-   <!--从这里到<h1>home</home>设定了网页的布局layout ??-->
-  
-  <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">    
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">       <!--nav设定导航栏-->
   
     <div class="container">               <!--<div> 元素是块级元素，它可用于组合其他 HTML 元素的容器;可用于文档布局-->
                                            <!--这里的container是指最上方的header-->
@@ -82,7 +81,7 @@
 
         <li class="nav-item">                           <!--Home按钮链接到此网页下#about栏目-->
           <a href="/#about" data-target="#about">
-              <span style="color:blue;font-weight:bold"> Home </span>
+              <span style="color:blue;font-weight:bold"> Home </span>         <!--这里自行设定了home按钮的颜色和字体-->
           </a>
         </li>
 
@@ -110,9 +109,77 @@
       
   </div>
 
-</nav>                                          <!--59~109行定义了页面最上方栏的五个链接buttom -->
+</nav>                                          <!--59~109行定义了页面最上方导航栏的五个链接buttom -->
   
+ <!---------------------------------------------------------------------------------------------------------> 
+ <!--------------------------------------------------布局homepage区域------------------------------------------------------->  
+ <span id="homepage" style="display: none"></span>
+
+  <section id="about" class="home-section">
+
+<div class="container">
+
+  <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+
+   <div class="col-xs-12 col-md-4">
+
+    <div id="profile">
+      
+      <div class="portrait" style="background-image: url('/img/avatar.jpeg');"></div>
+
+      <meta itemprop="image" content="/img/avatar.jpeg">
+
+      <div class="portrait-title">
+
+        <h2 itemprop="name">Yuanyuan Sun</h2>
+
+        <h3 itemprop="jobTitle">CS PhD@HUST</h3>      
+
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+
+          <a href="http://www.hust.edu.cn/" target="_blank" itemprop="url" rel="noopener">
+
+          <span itemprop="name">Huazhong University of Science and Technology</span>
+
+          </a>
+
+        </h3>       
+
+      </div>
+
+      <link itemprop="url" href="/">
+
+      <ul class="network-icon" aria-hidden="true">    
+
+        <li>
+
+          <a itemprop="sameAs" href="mailto:csunyy@hust.edu.cn" target="_blank" rel="noopener">
+
+            <i class="fa fa-envelope big-icon"></i>
+
+          </a>
+
+        </li>  
+
+        <li>
+
+          <a itemprop="sameAs" href="//github.com/csunyy" target="_blank" rel="noopener">
+
+            <i class="fa fa-github big-icon"></i>
+
+          </a>
+
+        </li>
+       
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="col-xs-12 col-md-8" itemprop="description">
   
+  <!--------------------------------------------------------------------------------------------------------->
   
 <h1 style="font-family:Times New Roman;text-align:center;"> home </h1>   <!--<h1> 元素定义一个大标题，<h1>~<h6>为依次减小的6个标题-->
                                            <!--这里自己用style添加了新罗马字体，以及标题居中-->
