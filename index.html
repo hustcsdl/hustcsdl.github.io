@@ -49,7 +49,7 @@
 </head>
  
   
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >   <!--<body> 元素包含了可见的页面内容,<body> 元素定义了 HTML 文档的主体-->
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="150" >   <!--<body> 元素包含了可见的页面内容,<body> 元素定义了 HTML 文档的主体-->
                                                         <!--这里的body定义了哪些属性？-->
  
   
@@ -59,13 +59,14 @@
   <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">    
   
     <div class="container">               <!--<div> 元素是块级元素，它可用于组合其他 HTML 元素的容器;可用于文档布局-->
-      
+                                           <!--这里的container是指最上方的header-->
       <div class="navbar-header"> 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
 
         <span class="sr-only">Toggle navigation</span>                <!--<span> 元素是内联元素，可用作文本的容器-->
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                                 <!--<span> 用于对文档中的行内元素进行组合,
+                                                                        提供了一种将文本的一部分或者文档的一部分独立出来的方式-->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
