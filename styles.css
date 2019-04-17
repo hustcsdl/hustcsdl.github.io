@@ -28,7 +28,7 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);               /*设置的是段落内正文的红绿蓝三原色值（不含标题、链接、span内的内容），以及透明度*/
-  line-height: 1.60;               /* 1.65 */
+  line-height: 1.10;               /* 1.65 */
 }
 @media screen and (min-width: 58em) {
   html {
