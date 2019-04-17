@@ -42,7 +42,7 @@ body {
   line-height: inherit;
   color: inherit;
   background-color: #fff;
-  margin-top: 41px; /* Offset body content by navbar height. 71 */     /* 这里是什么？ */
+  margin-top: 21px; /* Offset body content by navbar height. 71 */     /* 这里是什么？ */
   padding-top: 0;
   counter-reset: captions;
 }
