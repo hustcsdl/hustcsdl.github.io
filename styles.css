@@ -48,7 +48,7 @@ body {
 }
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
-    margin-top: 21px;          /* Offset body content by navbar height.导航栏高度51 */
+    margin-top: 51px;          /* Offset body content by navbar height. */
   }
 }
 
@@ -1117,7 +1117,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 50px !important;                        /*****70导航栏高度？****/                        
 }
 
 .navbar-default {
