@@ -26,7 +26,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;                       /*设定的是正文段落内字号？ */
+  font-size: 16px;                       /*设定的是 */
   color: rgba(0,0,0,0.8);               /*设置的是段落内正文的红绿蓝三原色值（不含标题、链接、span内的内容），以及透明度*/
   line-height: 1.60;               /*设定的是正文段落内的行距 1.65 */
 }
@@ -48,7 +48,7 @@ body {
 }
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
-    margin-top: 41px; /* Offset body content by navbar height.导航栏高度51 */
+    margin-top: 21px;          /* Offset body content by navbar height.导航栏高度51 */
   }
 }
 
