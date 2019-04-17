@@ -42,7 +42,7 @@ body {
   line-height: inherit;
   color: inherit;
   background-color: #fff;
-  margin-top: 11px; /* Offset body content by navbar height. 71 */     /* 这里设定的是页面体内容离导航栏的距离（导航栏以下） */
+  margin-top: 41px; /* Offset body content by navbar height. 71 */     /* 这里设定的是页面体内容离导航栏的距离（导航栏以下） */
   padding-top: 0;
   counter-reset: captions;
 }
