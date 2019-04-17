@@ -464,7 +464,7 @@ a[data-fancybox] img {
 }
 
 #profile .portrait {
-  background-image: url('../img/portrait.jpg');             /*这里设定肖像图片的大小**/
+  background-image: url('../img/portrait.jpg');             /*这里设定肖像图片的大小 both 200px**/
   width: 180px;
   height: 180px;
   margin: 0 auto;
@@ -1117,7 +1117,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;                        /*****70导航栏高度？****/                        
+  min-height: 40px !important;                        /*****70导航栏高度？****/                        
 }
 
 .navbar-default {
@@ -1135,7 +1135,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 16px;
+  font-size: 6px;             /*16px导航栏字体大小？*/
 }
 
 .navbar-default .navbar-nav>li>a,
