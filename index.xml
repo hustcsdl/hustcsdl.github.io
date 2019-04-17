@@ -6,9 +6,10 @@
     <description>Recent content in hustcsdl on hustcsdl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 16 Apr 2019 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Cost-efficient Rewriting Scheme to Improve Restore Performance in Deduplication Systems</title>
@@ -18,69 +19,10 @@
       <guid>/publication/a-cost-efficient-rewriting-scheme-to-improve-restore-performance-in-deduplication-systems/</guid>
       <description></description>
     </item>
+   
     
-    <item>
-      <title>Mitigating Traffic-based Side Channel Attacks in Bandwidth-efficient Cloud Storage</title>
-      <link>/publication/mitigating-traffic-based-side-channel-attacks-in-bandwidth-efficient-cloud-storage/</link>
-      <pubDate>Sun, 24 Jun 2018 15:26:36 +0800</pubDate>
-      
-      <guid>/publication/mitigating-traffic-based-side-channel-attacks-in-bandwidth-efficient-cloud-storage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SmartCuckoo: A Fast and Cost-Efficient Hashing Index Scheme for Cloud Storage Systems</title>
-      <link>/publication/smartcuckoo-a-fast-and-cost-efficient-hashing-index-scheme-for-cloud-storage-systems/</link>
-      <pubDate>Mon, 24 Jul 2017 15:14:51 +0800</pubDate>
-      
-      <guid>/publication/smartcuckoo-a-fast-and-cost-efficient-hashing-index-scheme-for-cloud-storage-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BEES: Bandwidth- and Energy- Efficient Image Sharing for Real-time Situation Awareness</title>
-      <link>/publication/bees-bandwidth-and-energy-efficient-image-sharing-for-real-time-situation-awareness/</link>
-      <pubDate>Sat, 24 Jun 2017 15:36:22 +0800</pubDate>
-      
-      <guid>/publication/bees-bandwidth-and-energy-efficient-image-sharing-for-real-time-situation-awareness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DLSH: A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud Computing</title>
-      <link>/publication/dlsh-a-distribution-aware-lsh-scheme-for-approximate-nearest-neighbor-query-in-cloud-computing/</link>
-      <pubDate>Sat, 24 Jun 2017 15:19:41 +0800</pubDate>
-      
-      <guid>/publication/dlsh-a-distribution-aware-lsh-scheme-for-approximate-nearest-neighbor-query-in-cloud-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Collision-Mitigation Cuckoo Hashing Scheme for Large-scale Storage Systems</title>
-      <link>/publication/a-collision-mitigation-cuckoo-hashing-schme-for-large-scale-storage-systems/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/a-collision-mitigation-cuckoo-hashing-schme-for-large-scale-storage-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MinCounter: An Efficient Cuckoo Hashing Scheme for Cloud Storage Systems</title>
-      <link>/publication/mincounter-an-efficient-cuckoo-hashing-scheme-for-cloud-storage-systems/</link>
-      <pubDate>Wed, 24 Jun 2015 15:23:30 +0800</pubDate>
-      
-      <guid>/publication/mincounter-an-efficient-cuckoo-hashing-scheme-for-cloud-storage-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Necklace: An Efficient Cuckoo Hashing Scheme for Cloud Storage Services</title>
-      <link>/publication/necklace-an-efficient-cuckoo-hashing-scheme-for-cloud-storage-services/</link>
-      <pubDate>Tue, 24 Jun 2014 15:39:52 +0800</pubDate>
-      
-      <guid>/publication/necklace-an-efficient-cuckoo-hashing-scheme-for-cloud-storage-services/</guid>
-      <description></description>
-    </item>
+   
+
     
   </channel>
 </rss>
